@@ -110,11 +110,12 @@ body{
     z-index: 10;
     opacity: 0;
     color: #fff;
+    text-justify: auto;
 }
 .center div:nth-child(1) h2{
     animation: fadeText 0.5s linear forwards;
     animation-delay: 4s;
-    font-size: 60px;
+    font-size: 50px;
 }
 .center div:nth-child(3) h2{
     animation: fadeText 0.5s linear forwards;

@@ -161,7 +161,7 @@ function initCanvas() {
 function initInput() {
     input = document.getElementById('input');
     input.addEventListener('keyup', updateText);
-    input.value = 'SUPER 60';
+    input.value = 'Vikrant';
 }
 
 function updateText() {
