@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Musical Square</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script>
+    
+    
+    </script>
+    <style>
+        .btn1{
+            width: 180px;
+            height: 30px;
+            margin: 10px;
+            position: relative;   
+            background-attachment: fixed;
+            transition: transform .2s;
+            box-shadow: 0px 0px 10px 3px black, 0px 0px 10px 2px white inset;
+        }
+        .btn{
+            box-shadow: 0px 0px 10px 3px black, 0px 0px 10px 2px white inset;
+        }
+        .btn1:hover{
+            transform: scale(1.5);
+            z-index: 3; 
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+        <p class="text-white p-2" style="display: inline-block;"><b>THEMES:</b></p>
+        <a href="music-tiles - Dark.html"><input type="button" value="Dark" class="btn btn-dark active btn-md"></a>
+        <a href="music-tiles - Green.html"><input type="button" value="Green" class="btn btn-success btn-md"></a>
+        <a href="music-tiles - Red.html"><input type="button" value="Red" class="btn btn-danger btn-md"></a>
+        <a href="music-tiles - Yellow.html"><input type="button" value="Yellow" class="btn btn-warning btn-md"></a>
+        <a href="music-tiles - Blue.html"><input type="button" value="Blue" class="btn btn-info btn-md"></a>
+        <a href="music-tiles - White.html"><input type="button" value="Image" class="btn btn-white btn-md"></a>
+        <a href="Index.html"><input type="button" value="HOME" class="btn btn-outline-white btn-md float-right"></a>
+
+    <div class="container-fluid pt-5" style="margin-top: -60px;">
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input onmouseover="playAudio11();" type="button" value="" id="11" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio12();" type="button" value="" id="12" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio13();" type="button" value="" id="13" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio14();" type="button" value="" id="14" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio15();" type="button" value="" id="15" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio16();" type="button" value="" id="16" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio17();" type="button" value="" id="17" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio18();" type="button" value="" id="18" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio19();" type="button" value="" id="19" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio10();" type="button" value="" id="10" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio1a();" type="button" value="" id="1a" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio1b();" type="button" value="" id="1b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input onmouseover="playAudio21();" type="button" value="" id="21" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio22();" type="button" value="" id="22" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio23();" type="button" value="" id="23" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio24();" type="button" value="" id="24" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio25();" type="button" value="" id="25" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio26();" type="button" value="" id="26" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio27();" type="button" value="" id="27" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio28();" type="button" value="" id="28" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio29();" type="button" value="" id="29" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio20();" type="button" value="" id="20" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio2a();" type="button" value="" id="2a" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio2b();" type="button" value="" id="2b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input onmouseover="playAudio31();" type="button" value="" id="31" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio32();" type="button" value="" id="32" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio33();" type="button" value="" id="33" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio34();" type="button" value="" id="34" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio35();" type="button" value="" id="35" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio36();" type="button" value="" id="36" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio37();" type="button" value="" id="37" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio38();" type="button" value="" id="38" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio39();" type="button" value="" id="39" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio30();" type="button" value="" id="30" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio3a();" type="button" value="" id="3a" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio3b();" type="button" value="" id="3b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input  onmouseover="playAudio41();" type="button" value="" id="41" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio42();" type="button" value="" id="42" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio43();" type="button" value="" id="43" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio44();" type="button" value="" id="44" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio45();" type="button" value="" id="45" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio46();" type="button" value="" id="46" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio47();" type="button" value="" id="47" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio48();" type="button" value="" id="48" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio49();" type="button" value="" id="49" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio40();" type="button" value="" id="40" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio4a();" type="button" value="" id="4a" class="btn1 btn btn-outline-light">
+                <input  onmouseover="playAudio4b();" type="button" value="" id="4b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input onmouseover="playAudio51();" type="button" value="" id="51" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio52();" type="button" value="" id="52" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio53();" type="button" value="" id="53" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio54();" type="button" value="" id="54" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio55();" type="button" value="" id="55" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio56();" type="button" value="" id="56" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio57();" type="button" value="" id="57" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio58();" type="button" value="" id="58" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio59();" type="button" value="" id="59" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio50();" type="button" value="" id="50" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio5a();" type="button" value="" id="5a" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio5b();" type="button" value="" id="5b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-5">
+                <input onmouseover="playAudio61();" type="button" value="" id="61" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio62();" type="button" value="" id="62" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio63();" type="button" value="" id="63" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio64();" type="button" value="" id="64" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio65();" type="button" value="" id="65" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio66();" type="button" value="" id="66" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio67();" type="button" value="" id="67" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio68();" type="button" value="" id="68" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio69();" type="button" value="" id="69" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio60();" type="button" value="" id="60" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio6a();" type="button" value="" id="6a" class="btn1 btn btn-outline-light">
+                <input onmouseover="playAudio6b();" type="button" value="" id="6b" class="btn1 btn btn-outline-light">
+            </div>
+        </div>
+    </div>
+    <script>
+    
+    var a11 = new Audio('Tunes/a11.wav');
+    var a12 = new Audio('Tunes/a12.wav');
+    var a13 = new Audio('Tunes/a13.wav');
+    var a14 = new Audio('Tunes/a14.wav');
+    var a15 = new Audio('Tunes/a15.wav');
+    var a16 = new Audio('Tunes/a16.wav');
+    var a17 = new Audio('Tunes/a17.wav');
+    var a18 = new Audio('Tunes/a18.wav');
+    var a19 = new Audio('Tunes/a19.wav');
+    var a10 = new Audio('Tunes/a10.wav');
+    var a1a = new Audio('Tunes/a1a.wav');
+    var a1b = new Audio('Tunes/a1b.wav');
+    var a21 = new Audio('Tunes/a21.wav');
+    var a22 = new Audio('Tunes/a22.wav');
+    var a23 = new Audio('Tunes/a23.wav');
+    var a24 = new Audio('Tunes/a24.wav');
+    var a25 = new Audio('Tunes/a25.wav');
+    var a26 = new Audio('Tunes/a26.wav');
+    var a27 = new Audio('Tunes/a27.wav');
+    var a28 = new Audio('Tunes/a28.wav');
+    var a29 = new Audio('Tunes/a29.wav');
+    var a20 = new Audio('Tunes/a20.wav');
+    var a2a = new Audio('Tunes/a2a.wav');
+    var a2b = new Audio('Tunes/a2b.wav');
+    var a31 = new Audio('Tunes/a31.wav');
+    var a32 = new Audio('Tunes/a32.wav');
+    var a33 = new Audio('Tunes/a33.wav');
+    var a34 = new Audio('Tunes/a34.wav');
+    var a35 = new Audio('Tunes/a35.wav');
+    var a36 = new Audio('Tunes/a36.wav');
+    var a37 = new Audio('Tunes/a37.wav');
+    var a38 = new Audio('Tunes/a38.wav');
+    var a39 = new Audio('Tunes/a39.wav');
+    var a30 = new Audio('Tunes/a30.wav');
+    var a3a = new Audio('Tunes/a3a.wav');
+    var a3b = new Audio('Tunes/a3b.wav');
+    var a41 = new Audio('Tunes/a41.wav');
+    var a42 = new Audio('Tunes/a42.wav');
+    var a43 = new Audio('Tunes/a43.wav');
+    var a44 = new Audio('Tunes/a44.wav');
+    var a45 = new Audio('Tunes/a45.wav');
+    var a46 = new Audio('Tunes/a46.wav');
+    var a47 = new Audio('Tunes/a47.wav');
+    var a48 = new Audio('Tunes/a48.wav');
+    var a49 = new Audio('Tunes/a49.wav');
+    var a40 = new Audio('Tunes/a40.wav');
+    var a4a = new Audio('Tunes/a4a.wav');
+    var a4b = new Audio('Tunes/a4b.wav');
+    var a51 = new Audio('Tunes/a51.wav');
+    var a52 = new Audio('Tunes/a52.wav');
+    var a53 = new Audio('Tunes/a53.wav');
+    var a54 = new Audio('Tunes/a54.wav');
+    var a55 = new Audio('Tunes/a55.wav');
+    var a56 = new Audio('Tunes/a56.wav');
+    var a57 = new Audio('Tunes/a57.wav');
+    var a58 = new Audio('Tunes/a58.wav');
+    var a59 = new Audio('Tunes/a59.wav');
+    var a50 = new Audio('Tunes/a50.wav');
+    var a5a = new Audio('Tunes/a5a.wav');
+    var a5b = new Audio('Tunes/a5b.wav');
+    var a61 = new Audio('Tunes/a61.wav');
+    var a62 = new Audio('Tunes/a62.wav');
+    var a63 = new Audio('Tunes/a63.wav');
+    var a64 = new Audio('Tunes/a64.wav');
+    var a65 = new Audio('Tunes/a65.wav');
+    var a66 = new Audio('Tunes/a66.wav');
+    var a67 = new Audio('Tunes/a67.wav');
+    var a68 = new Audio('Tunes/a68.wav');
+    var a69 = new Audio('Tunes/a69.wav');
+    var a60 = new Audio('Tunes/a60.wav');
+    var a6a = new Audio('Tunes/a6a.wav');
+    var a6b = new Audio('Tunes/a6b.wav');
+    function random(){
+        return Math.floor(Math.random()*255);
+    }
+    function randomcolor(){
+        document.getElementById('11').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('12').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('13').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('14').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('15').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('16').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('17').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('18').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('19').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('10').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('1a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('1b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('21').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('22').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('23').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('24').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('25').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('26').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('27').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('28').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('29').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('20').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('2a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('2b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('31').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('32').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('33').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('34').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('35').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('36').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('37').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('38').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('39').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('30').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('3a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('3b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('41').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('42').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('43').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('44').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('45').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('46').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('47').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('48').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('49').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('40').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('4a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('4b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('51').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('52').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('53').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('54').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('55').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('56').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('57').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('58').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('59').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('50').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('5a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('5b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('61').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('62').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('63').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('64').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('65').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('66').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('67').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('68').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('69').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('60').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('6a').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        document.getElementById('6b').style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+    }
+    function playAudio11(){
+        a11.play();
+        a11 = new Audio('Tunes/a11.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio12(){
+        a12.play();
+        a12 = new Audio('Tunes/a12.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio13(){
+        a13.play();
+        a13 = new Audio('Tunes/a13.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio14(){
+        a14.play();
+        a14 = new Audio('Tunes/a14.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio15(){
+        a15.play();
+        a15 = new Audio('Tunes/a15.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio16(){
+        a16.play();
+        a16 = new Audio('Tunes/a16.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio17(){
+        a17.play();
+        a17 = new Audio('Tunes/a17.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio18(){
+        a18.play();
+        a18 = new Audio('Tunes/a18.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio19(){
+        a19.play();
+        a19 = new Audio('Tunes/a19.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio10(){
+        a10.play();
+        a10 = new Audio('Tunes/a10.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio1a(){
+        a1a.play();
+        a1a = new Audio('Tunes/a1a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio1b(){
+        a1b.play();
+        a1b = new Audio('Tunes/a1b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio21(){
+        a21.play();
+        a21 = new Audio('Tunes/a21.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio22(){
+        a22.play();
+        a22 = new Audio('Tunes/a22.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio23(){
+        a23.play();
+        a23 = new Audio('Tunes/a23.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio24(){
+        a24.play();
+        a24 = new Audio('Tunes/a24.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio25(){
+        a25.play();
+        a25 = new Audio('Tunes/a25.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio26(){
+        a26.play();
+        a26 = new Audio('Tunes/a26.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio27(){
+        a27.play();
+        a27 = new Audio('Tunes/a27.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio28(){
+        a28.play();
+        a28 = new Audio('Tunes/a28.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio29(){
+        a29.play();
+        a29 = new Audio('Tunes/a29.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio20(){
+        a20.play();
+        a20 = new Audio('Tunes/a20.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio2a(){
+        a2a.play();
+        a2a = new Audio('Tunes/a2a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio2b(){
+        a2b.play();
+        a2b = new Audio('Tunes/a2b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio31(){
+        a31.play();
+        a31 = new Audio('Tunes/a31.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio32(){
+        a32.play();
+        a32 = new Audio('Tunes/a32.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio33(){
+        a33.play();
+        a33 = new Audio('Tunes/a33.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio34(){
+        a34.play();
+        a34 = new Audio('Tunes/a34.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio35(){
+        a35.play();
+        a35 = new Audio('Tunes/a35.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio36(){
+        a36.play();
+        a36 = new Audio('Tunes/a36.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio37(){
+        a37.play();
+        a37 = new Audio('Tunes/a37.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio38(){
+        a38.play();
+        a38 = new Audio('Tunes/a38.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio39(){
+        a39.play();
+        a39 = new Audio('Tunes/a39.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio30(){
+        a30.play();
+        a30 = new Audio('Tunes/a30.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio3a(){
+        a3a.play();
+        a3a = new Audio('Tunes/a3a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio3b(){
+        a3b.play();
+        a3b = new Audio('Tunes/a3b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio41(){
+        a41.play();
+        a41 = new Audio('Tunes/a41.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio42(){
+        a42.play();
+        a42 = new Audio('Tunes/a42.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio43(){
+        a43.play();
+        a43 = new Audio('Tunes/a43.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio44(){
+        a44.play();
+        a44 = new Audio('Tunes/a44.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio45(){
+        a45.play();
+        a45 = new Audio('Tunes/a45.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio46(){
+        a46.play();
+        a46 = new Audio('Tunes/a46.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio47(){
+        a47.play();
+        a47 = new Audio('Tunes/a47.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio48(){
+        a48.play();
+        a48 = new Audio('Tunes/a48.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio49(){
+        a49.play();
+        a49 = new Audio('Tunes/a49.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio40(){
+        a40.play();
+        a40 = new Audio('Tunes/a40.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio4a(){
+        a4a.play();
+        a4a = new Audio('Tunes/a4a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio4b(){
+        a4b.play();
+        a4b = new Audio('Tunes/a4b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio51(){
+        a51.play();
+        a51 = new Audio('Tunes/a51.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio52(){
+        a52.play();
+        a52 = new Audio('Tunes/a52.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio53(){
+        a53.play();
+        a53 = new Audio('Tunes/a53.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio54(){
+        a54.play();
+        a54 = new Audio('Tunes/a54.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio55(){
+        a55.play();
+        a55 = new Audio('Tunes/a55.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio56(){
+        a56.play();
+        a56 = new Audio('Tunes/a56.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio57(){
+        a57.play();
+        a57 = new Audio('Tunes/a57.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio58(){
+        a58.play();
+        a58 = new Audio('Tunes/a58.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio59(){
+        a59.play();
+        a59 = new Audio('Tunes/a59.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio50(){
+        a50.play();
+        a50 = new Audio('Tunes/a50.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio5a(){
+        a5a.play();
+        a5a = new Audio('Tunes/a5a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio5b(){
+        a5b.play();
+        a5b = new Audio('Tunes/a5b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio61(){
+        a61.play();
+        a61 = new Audio('Tunes/a61.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio62(){
+        a62.play();
+        a62 = new Audio('Tunes/a62.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio63(){
+        a63.play();
+        a63 = new Audio('Tunes/a63.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio64(){
+        a64.play();
+        a64 = new Audio('Tunes/a64.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio65(){
+        a65.play();
+        a65 = new Audio('Tunes/a65.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio66(){
+        a66.play();
+        a66 = new Audio('Tunes/a66.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio67(){
+        a67.play();
+        a67 = new Audio('Tunes/a67.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio68(){
+        a68.play();
+        a68 = new Audio('Tunes/a68.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio69(){
+        a69.play();
+        a69 = new Audio('Tunes/a69.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio60(){
+        a60.play();
+        a60 = new Audio('Tunes/a60.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio6a(){
+        a6a.play();
+        a6a = new Audio('Tunes/a6a.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    function playAudio6b(){
+        a6b.play();
+        a6b = new Audio('Tunes/a6b.wav');
+        document.body.style.backgroundColor = "rgb("+random()+","+random()+","+random()+")";
+        randomcolor();
+    }
+    
+    </script>
+</body>
+</html>
