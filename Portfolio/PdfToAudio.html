@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+
+<body>
+  <input id="NewPdf" type="file"/>
+  <input type="button" onclick="PrintPdf();" value="Print Pdf"/>
+  <script>
+    
+    function PrintPdf(){
+      
+      var myPdf = document.getElementById("NewPdf").value;
+      
+      if(myPdf != null){
+        console.log(myPdf);
+      }
+    }
+    
+    
+    
+  </script>
+</body>
+  
+</html>
