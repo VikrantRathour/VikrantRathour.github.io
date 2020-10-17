@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+</head>
+
+<body>
+
+  <script>
+    
+    async function myFn(){
+
+console.debug('start');
+const model = await tf.loadLayersModel('https://foo.bar/tfjs_artifacts/model.json');
+console.debug('model');
+// JavaScript
+
+const example = tf.fromPixels(webcamElement);  // for example
+console.debug('example');
+const prediction = model.predict(example);
+
+console.debug('pred');
+}
+myFn();
+
+  </script>
+
+</body>
+
+</html>
