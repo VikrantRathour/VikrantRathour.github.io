@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <iframe id="mainiframe" class="MainIframe" src="https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7" frameborder="0"></iframe>
+    //<iframe id="mainiframe" class="MainIframe" src="https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7" frameborder="0"></iframe>
+<div id="frame"></div>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-var iframe = document.getElementById('mainiframe');
-var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-   console.log(innerDoc.body);
+$('frame').load('https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7 #new-pad-dialog');
 </script>
 
 
