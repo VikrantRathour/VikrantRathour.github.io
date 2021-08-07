@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <iframe class="MainIframe" src="https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7" frameborder="0"></iframe>
+    <iframe id="mainiframe" class="MainIframe" src="https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7" frameborder="0"></iframe>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+var ifrm = document.getElementById('mainiframe');
+console.log(ifrm.contentWindow.document);
+</script>
+
+
 </body>
 </html>
