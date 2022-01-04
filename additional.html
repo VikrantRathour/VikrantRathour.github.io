@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dart</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="frame"></div>
+    <!-- <div id="frame2"></div> -->
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-$('#frame').load('https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7 section .panels #editor-panel');
-</script>
+    <script>
+        var url = "https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7";
+        $.getScript( url);
+        $('#frame').load('https://dartpad.dev/ecb28c29c646b7f38139b1e7f44129b7 #editor-panel');
+        // $('#frame').load('https://vikrantrathour.github.io/Portfolio/index.html #about1');
+    </script>
 
 
 </body>
+
 </html>
