@@ -38,8 +38,14 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text('VIKRANT RATHOUR',
-                  style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold)),
+               Text(
+                'VIKRANT RATHOUR',
+                style: TextStyle(
+                  // background: Paint().,
+                  fontSize: 50,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               const SizedBox(
                 height: 20.0,
               ),
@@ -75,24 +81,20 @@ class Home extends StatelessWidget {
                     onTap: () => Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => const ServicesView())),
                   ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
                   HomeHexagonWidgets(
                     data: 'Resume',
                     onTap: () => Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => const ResumeView())),
                   ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
                   HomeHexagonWidgets(
-                    data: 'Works',
-                  ),
-                  HomeHexagonWidgets(
-                    data: 'Testimonials',
-                  ),
-                  HomeHexagonWidgets(
-                    data: 'Contact',
+                    data: 'Resume',
+                    onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const ResumeView())),
                   ),
                 ],
               ),
