@@ -1,0 +1,1598 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ecommerce Project</title>
+
+    <!--Css File-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/uikit.min.css" rel="stylesheet" />
+    <link href="css/slick-theme.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/Responsive.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    
+</head>
+<body>
+
+    <!---------- Header Section ---------->
+    <header class="header-sec">
+        <div class="border-btm" id="myHeader">
+            <div class="container">
+                <div class="top-header">
+                    <div class="header-left-box">
+                        <ul class="topheader-dropdown">
+                            <li class="currency-dropdown">
+                                <a href="#">Currency <i class="fa fa-angle-down"></i></a>
+                                <ul>
+                                    <li>
+                                        <label class="form-label">Currency</label>
+                                        <select class="form-select" id="Currency">
+                                            <option selected>Currency</option>
+                                            <option value="USD">USD</option>
+                                            <option value="EUR">EUR</option>
+                                            <option value="CAD">CAD</option>
+                                            <option value="CAD">CAD</option>
+                                            <option value="NZD">NZD</option>
+                                            <option value="AED">AED</option>
+                                            <option value="AUD">AUD</option>
+                                            <option value="THB">THB</option>
+                                        </select>
+                                    </li>
+                                    <li class="mt-3">
+                                        <label class="form-label">INR</label>
+                                        <select class="form-select" id="INR">
+                                            <option selected>INR</option>
+                                            <option value="USD">Ind</option>
+                                            <option value="EUR">EUR</option>
+                                            <option value="CAD">CAD</option>
+                                            <option value="CAD">CAD</option>
+                                            <option value="NZD">NZD</option>
+                                            <option value="AED">AED</option>
+                                            <option value="AUD">AUD</option>
+                                            <option value="THB">THB</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <div class="view-btn load-more text-center mt-2">
+                                            <a href="#" class="d-block px-2 text-white">Submit</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="logo-box">
+                        <div class="logo-center">
+                            <a href="#" class="d-block"><img src="images/Logo.png" class="img-fluid" alt="RoopVatika Logo" /></a>
+                        </div>
+                    </div>
+
+                    <div class="header-right-box">
+                        <ul class="header-right-icon">
+                            <li>
+                                <a href="#searchBar" class="toolbar-btn"><i class="fa fa-search"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                            </li>
+                            <li>
+                                <a href="#miniCart" class="toolbar-btn"><i class="fa fa-shopping-bag"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-sec">
+            <div class="container">
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="nav-arrow">Collection</a></li>
+                        <li>
+                            <a href="#" class="nav-arrow">Lehanga</a>
+                            <ul class="sub-dropdown">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>LEHENGA BY STYLE</h2></li>
+                                                    <li><a href="#">See All Lehengas</a></li>
+                                                    <li><a href="#">Bridal Lehengas</a></li>
+                                                    <li><a href="#">Designer Lehengas</a></li>
+                                                    <li><a href="#">Drape Lehengas</a></li>
+                                                    <li><a href="#">Jacket Lehengas</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>LEHENGA BY OCCASION</h2></li>
+                                                    <li><a href="#">Wedding Lehengas</a></li>
+                                                    <li><a href="#">Day Wedding Lehengas</a></li>
+                                                    <li><a href="#">Intimate Wedding Collections</a></li>
+                                                    <li><a href="#">Sangeet Lehengas</a></li>
+                                                    <li><a href="#">Reception Lehengas</a></li>
+                                                    <li><a href="#">Mehendi Lehengas</a></li>
+                                                    <li><a href="#">Party Wear Lehengas</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>LEHENGA BY COLORS</h2></li>
+                                                    <li><a href="#">Green Lehengas</a></li>
+                                                    <li><a href="#">Yellow Lehengas</a></li>
+                                                    <li><a href="#">Red Lehengas</a></li>
+                                                    <li><a href="#">Blue Lehengas</a></li>
+                                                    <li><a href="#">Black Lehengas</a></li>
+                                                    <li><a href="#">Pink Lehengas</a></li>
+                                                    <li><a href="#">Peach Lehengas</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><img src="images/Image-1.jpg" class="img-fluid" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-arrow">Gowns</a>
+                            <ul class="sub-dropdown gown-cat">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>GOWNS BY STYLE</h2></li>
+                                                    <li><a href="#">See All Gowns</a></li>
+                                                    <li><a href="#">Designer Gowns</a></li>
+                                                    <li><a href="#">Evening Gowns</a></li>
+                                                    <li><a href="#">Drape Gowns</a></li>
+                                                    <li><a href="#">Indowestern Gowns</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>GOWNS BY OCCASION</h2></li>
+                                                    <li><a href="#">Sangeet Gowns</a></li>
+                                                    <li><a href="#">Reception Gowns</a></li>
+                                                    <li><a href="#">Party Wear Gowns</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>GOWNS BY COLORS</h2></li>
+                                                    <li><a href="#">Red Gowns</a></li>
+                                                    <li><a href="#">Pink Gowns</a></li>
+                                                    <li><a href="#">Blue Gowns</a></li>
+                                                    <li><a href="#">Grey Gowns</a></li>
+                                                    <li><a href="#">Maroon Gowns</a></li>
+                                                    <li><a href="#">Navy Blue Gowns</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><img src="images/Gown-dropdown-images.png" class="img-fluid" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-arrow">Saree</a>
+                            <ul class="sub-dropdown gown-cat saree-cat">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SAREE BY STYLE</h2></li>
+                                                    <li><a href="#">See All Sarees</a></li>
+                                                    <li><a href="#">Embroidered Sarees</a></li>
+                                                    <li><a href="#">Designer Sarees</a></li>
+                                                    <li><a href="#">Drape Sarees</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SAREE BY OCCASION</h2></li>
+                                                    <li><a href="#">Wedding Sarees</a></li>
+                                                    <li><a href="#">Bridal Sarees</a></li>
+                                                    <li><a href="#">Party Wear Sarees</a></li>
+                                                    <li><a href="#">Festive Sarees</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SAREE BY COLORS</h2></li>
+                                                    <li><a href="#">Red Sarees</a></li>
+                                                    <li><a href="#">Black Sarees</a></li>
+                                                    <li><a href="#">Green Sarees</a></li>
+                                                    <li><a href="#">Blue Sarees</a></li>
+                                                    <li><a href="#">Pink Sarees</a></li>
+                                                    <li><a href="#">Beige Sarees</a></li>
+                                                    <li><a href="#">Pastel Sarees</a></li>
+                                                    <li><a href="#">Yellow Sarees</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SAREE BY FABRIC</h2></li>
+                                                    <li><a href="#">Net Sarees</a></li>
+                                                    <li><a href="#">Chiffon Sarees</a></li>
+                                                    <li><a href="#">Silk Sarees</a></li>
+                                                    <li><a href="#">Georgette Sarees</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><img src="images/Gown-dropdown-images.png" class="img-fluid" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="nav-arrow">Indowestern</a></li>
+                        <li><a href="#" class="nav-arrow">Western</a></li>
+                        <li>
+                            <a href="#" class="nav-arrow">Suits</a>
+                            <ul class="sub-dropdown gown-cat saree-cat suit-cat">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SUITS BY STYLE</h2></li>
+                                                    <li><a href="#">See All Suits</a></li>
+                                                    <li><a href="#">Anarkali Suits</a></li>
+                                                    <li><a href="#">Sharara Suits</a></li>
+                                                    <li><a href="#">Designer Salwar Kameez</a></li>
+                                                    <li><a href="#">Palazzo Suits</a></li>
+                                                    <li><a href="#">Dhoti Suits</a></li>
+                                                    <li><a href="#">Straight Cut Salwar Kameez</a></li>
+                                                    <li><a href="#">Crop Top Suits</a></li>
+                                                    <li><a href="#">Patiala Suits</a></li>
+                                                    <li><a href="#">Jump Suits</a></li>
+                                                    <li><a href="#">Indowestern Anarkali</a></li>
+                                                    <li><a href="#">Unstitched Salwar Kameez</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SUITS BY OCCASION</h2></li>
+                                                    <li><a href="#">Wedding Salwar Kameez</a></li>
+                                                    <li><a href="#">Party Wear Salwar Kameez</a></li>
+                                                    <li><a href="#">Festive Salwar Kameez</a></li>
+                                                    <li><a href="#">Engagement Salwar Kameez</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SUITS BY COLORS</h2></li>
+                                                    <li><a href="#">Black Salwar Kameez</a></li>
+                                                    <li><a href="#">Yellow Salwar Kameez</a></li>
+                                                    <li><a href="#">Peach Salwar Kameez</a></li>
+                                                    <li><a href="#">Grey Salwar Kameez</a></li>
+                                                    <li><a href="#">Rani Pink Salwar Kameez</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><h2>SUITS BY FABRIC</h2></li>
+                                                    <li><a href="#">Net Salwar Kameez</a></li>
+                                                    <li><a href="#">Silk Salwar Kameez</a></li>
+                                                    <li><a href="#">Georgette Salwar Kameez</a></li>
+                                                    <li><a href="#">Cotton Silk Salwar Kameez</a></li>
+                                                    <li><a href="#">Cotton Salwar Kameez</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="sub-drop-box">
+                                                <ul>
+                                                    <li><img src="images/Gown-dropdown-images.png" class="img-fluid" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="nav-arrow">Sale</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="offcanvas-minicart_wrapper" id="miniCart">
+            <div class="offcanvas-menu-inner">
+                <a href="#" class="btn-close"><i class="fa fa-times"></i></a>
+                <div class="minicart-content">
+                    <div class="minicart-heading">
+                        <h4>Shopping Cart</h4>
+                    </div>
+                    <ul class="minicart-list">
+                        <li class="minicart-product">
+                            <a class="product-item_remove" href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                            <div class="product-item_img">
+                                <img src="images/Cart-Image-1.png" alt="RoopVatika Cart Image">
+                            </div>
+                            <div class="product-item_content">
+                                <a class="product-item_title" href="#">Lorem Ipsum 1</a>
+                                <span class="product-item_quantity">1 x Rs.20.000</span>
+                            </div>
+                        </li>
+                        <li class="minicart-product">
+                            <a class="product-item_remove" href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                            <div class="product-item_img">
+                                <img src="images/Cart-Image-1.png" alt="RoopVatika Cart Image">
+                            </div>
+                            <div class="product-item_content">
+                                <a class="product-item_title" href="#">Lorem Ipsum 2</a>
+                                <span class="product-item_quantity">1 x Rs.20.000</span>
+                            </div>
+                        </li>
+                        <li class="minicart-product">
+                            <a class="product-item_remove" href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                            <div class="product-item_img">
+                                <img src="images/Cart-Image-1.png" alt="RoopVatika Cart Image">
+                            </div>
+                            <div class="product-item_content">
+                                <a class="product-item_title" href="#">Lorem Ipsum 3</a>
+                                <span class="product-item_quantity">1 x Rs.20.000</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="minicart-item_total">
+                    <span>Subtotal</span>
+                    <span class="ammount">Rs.60.000</span>
+                </div>
+                <div class="minicart-btn_area">
+                    <a href="#" class="hiraola-btn hiraola-btn_dark hiraola-btn_fullwidth">Checkout</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas-minicart_wrapper" id="searchBar">
+            <div class="offcanvas-menu-inner search-open-box">
+                <a href="#" class="btn-close"><i class="fa fa-close"></i></a>
+                <div class="search-panel-box">
+                    <div class="search-box mb-4">
+                        <h2>Search</h2>
+                        <div class="srch-div uk-position-relative">
+                            <input id="Search" type="search" class="input-form" placeholder="Type what you are looking for..." />
+                            <a href="#" class="srch-btn">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-listing row">
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-1.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-2.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"></i>View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-1.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-2.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"></i>View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-1.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product pb20">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Product-Category-2.png">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"></i>View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-btn load-more text-center mt-2">
+                        <a href="#">Load More</a>
+                        <a href="#" class="ms-2 btn-close-btn">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!---------- Banner Section ---------->
+    <div class="banner-sec">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Home-Banner.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Home-Banner-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Home-Banner.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!---------- Latest Collection Section ---------->
+    <div class="latest-collection-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Latest Collection</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0">
+                    <div class="latest-box1">
+                        <div class="latest-image-box">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/GOWN BACK.jpg" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alignment-box">
+                            <div class="content-box text-center">
+                                <h1>Faridah</h1>
+                                <!--<span>Collection</span>-->
+                                <p>Exotic Ensembles inspired from the Sun and the Sea with its freshness inculcated in each outfit for your special day designed by DS, A luxury brand from the House of Roop Vatika.</p>
+                                <div class="view-btn">
+                                    <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0">
+                    <div class="latest-box2">
+                        <div class="latest-image-box">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Latest-Collection-2.jpg" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Product Categories Section ---------->
+    <div class="product-category-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Product Categories</h2>
+                    </div>
+                </div>
+
+                <div class="product-category-slider">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-1.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Lehenga</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-2.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Gowns</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-3.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Suits</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-1.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Lehenga</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-2.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Gowns</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Product-Category-3.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Suits</h2>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Celebs Section ---------->
+    <div class="product-category-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>WHAT'S YOUR FAVOURITE CELEBS ARE WEARING</h2>
+                    </div>
+                </div>
+
+                <div class="product-category-slider">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-1.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sefali Bagga</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-2.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sonia Mann</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-3.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Tanushree Dutta</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-1.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sefali Bagga</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-2.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sonia Mann</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Celeb-3.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Tanushree Dutta</h2>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Bridal Collection Section ---------->
+    <div class="Bridal-collection-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Bridal Collection</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0">
+                    <div class="latest-box2">
+                        <div class="latest-image-box">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Bridal-Collection-1.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0">
+                    <div class="latest-box1">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Bridal-Collection-2.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Bridal-Collection-3.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Tending Now Section ---------->
+    <div class="Trending-Now-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Trending Now</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-3 px-0">
+                    <div class="latest-box2">
+                        <div class="latest-image-box">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Trending-Collection-1.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 px-0">
+                    <div class="latest-box2">
+                        <div class="row mx-0">
+                            <div class="col-md-6 px-0">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Trending-Collection-2.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Trending-Collection-3.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Trending-Collection-4.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <div class="latest-image-box">
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Trending-Collection-5.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 px-0">
+                    <div class="latest-box2">
+                        <div class="latest-image-box">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Trending-Collection-6.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Wedding Wardrob Section ---------->
+    <div class="Wedding-Wardrob-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Wedding Wardrob</h2>
+                    </div>
+                </div>
+
+                <div class="product-category-slider">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Sagan.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sagan</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Cocktail.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Cocktail</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Recption.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Recption</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Sagan.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Sagan</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Cocktail.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Cocktail</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <img class="content-image img-fluid" src="images/Recption.png" />
+                                    <div class="content-overlay"></div>
+                                    <div class="content-details fadeIn-bottom">
+                                        <div class="view-btn">
+                                            <a href="#"><i class="fa fa-eye"></i>View All Collection</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-name">
+                                    <h2>Recption</h2>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Book An Appointment Section ---------->
+    <div class="Book-An-Appointment-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Book An Appointment</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bookappoint-box1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="apoint-box-align">
+                            <div class="appointment-content-box">
+                                <span>Rajinder Nagar</span>
+                                <h2>RoopVatika Store</h2>
+                                <p>We are available for online as well as in-store appointments.</p>
+                                <div class="view-btn book-now">
+                                    <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="appointment-box">
+                            <a href="https://g.page/designer-lehenga-by-roopvatika?share" target="_blank"><img src="images/Stores 1.jpg" class="img-fluid" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bookappoint-box2 mt-5">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="appointment-box">
+                            <a href="https://goo.gl/maps/HmKK7DGe2Hu1U77a9" target="_blank"><img src="images/Rajouri-Store.png" class="img-fluid" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apoint-box-align">
+                            <div class="appointment-content-box">
+                                <span>RAJOURI GARDEN</span>
+                                <h2>RoopVatika Store</h2>
+                                <p>We are available for online as well as in-store appointments.</p>
+                                <div class="view-btn book-now">
+                                    <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Latest Blog Section ---------->
+    <div class="Latest=Blog-Sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-section">
+                        <h2>Latest Blog's</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-blog-box">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="London" class="tabcontent">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Blog-active-Image.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Paris" class="tabcontent">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Blog-Image-2.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Tokyo" class="tabcontent">
+                            <div class="content">
+                                <img class="content-image img-fluid" src="images/Blog-Image-3.png" />
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <div class="view-btn">
+                                        <a href="#"></i>Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="align-blog-box">
+                            <div class="tablinks blog-box" onclick="openCity(event, 'London')" id="defaultOpen">
+                                <div class="blog-image-box">
+                                    <img src="images/Blog-Box-image-1.png" class="img-fluid" />
+                                </div>
+                                <div class="blog-content">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                    <div class="view-btn book-now">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tablinks blog-box" onclick="openCity(event, 'Paris')">
+                                <div class="blog-image-box">
+                                    <img src="images/Blog-Box-image-2.png" class="img-fluid" />
+                                </div>
+                                <div class="blog-content">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                    <div class="view-btn book-now">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tablinks blog-box" onclick="openCity(event, 'Tokyo')">
+                                <div class="blog-image-box">
+                                    <img src="images/Blog-Box-image-3.png" class="img-fluid" />
+                                </div>
+                                <div class="blog-content">
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                    <div class="view-btn book-now">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Follow Us Section ---------->
+    <div class="instagram-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 px-0">
+                    <div class="inta-content-align">
+                        <div class="instagram-content">
+                            <i class="fa fa-instagram"></i>
+                            <span>Follow Us</span>
+                            <!--<span>On Insta:</span>-->
+                            <p>Dress yourself in our latest designer outfits by following us on Instagram.</p>
+                            <!--<h2>Instagram</h2>-->
+                            <div class="view-btn book-now">
+                                <a href="https://www.instagram.com/roopvatikaofficial/" target="_blank">Follow Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 px-0">
+                    <div class="product-category-slider">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
+                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-1.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="https://www.instagram.com/p/CVcW2klvHeU/?utm_source=ig_web_copy_link" target="_blank"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-2.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="https://www.instagram.com/p/CVVljHzvWT9/?utm_source=ig_web_copy_link" target="_blank"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-3.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="https://www.instagram.com/p/CVcW2klvHeU/?utm_source=ig_web_copy_link" target="_blank"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-1.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="https://www.instagram.com/p/CVVljHzvWT9/?utm_source=ig_web_copy_link" target="_blank"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-2.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="https://www.instagram.com/p/CUc0uFCvT44/?utm_source=ig_web_copy_link"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <img class="content-image img-fluid" src="images/Instagram-image-3.png" />
+                                        <div class="content-overlay"></div>
+                                        <div class="content-details fadeIn-bottom">
+                                            <div class="view-btn">
+                                                <a href="#"><i class="fa fa-instagram"></i>Follow Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Testimonial Section ---------->
+    <div class="testimonial-sec">
+        <div class="container">
+            <div class="testimonial-box">
+                <div class="testi-heading-box">
+                    <div class="heading-section testi-heading">
+                        <h2>Cutomer Review's</h2>
+                    </div>
+                </div>
+
+                <div class="testimonial-content mt-5">
+                    <div class="testi-box text-center">
+                        <div class="customer-img-box">
+                            <img src="images/Cutomer-Image.png" class="img-fluid " />
+                        </div>
+                        <p>The collection is awesome and this brand has one of the best designer outfits. Moreover, the service is quick, excellent, and perfectly impeccable. I loved the experience.</p>
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="testi-box text-center">
+                        <div class="customer-img-box">
+                            <img src="images/Cutomer-Image.png" class="img-fluid " />
+                        </div>
+                        <p>Their services are really awesome and they learn your taste very fast. I love and trust their brand loyalty.</p>
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="testi-box text-center">
+                        <div class="customer-img-box">
+                            <img src="images/Cutomer-Image.png" class="img-fluid " />
+                        </div>
+                        <p>I live in Gwalior and got my mom to help me shop for my wedding. Selection for the price range was fantastic and services were excellent. I had to do this over WhatsApp Video and it all worked out really well!</p>
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="testi-box text-center">
+                        <div class="customer-img-box">
+                            <img src="images/Cutomer-Image.png" class="img-fluid " />
+                        </div>
+                        <p>The Rajouri Garden Store has amazing staff and outfits. We purchased outfits for my sister’s wedding and my own wedding as well from Roop Vatika itself. We purchased dresses for all functions for our entire family.</p>
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                    <div class="testi-box text-center">
+                        <div class="customer-img-box">
+                            <img src="images/Cutomer-Image.png" class="img-fluid " />
+                        </div>
+                        <p>Very happy with the collection at Roop Vatika. Worth buying it. Staff at RoopVatika’s Rajender Nagar Branch was very helpful. They took personal interest to make sure they catered to all my needs with special detail and made the whole buying experience for my wedding outfits very easy, smooth and hassle free! It was a delight and thanks to them I was able to find the perfect outfit with great service.</p>
+                        <h2>Lorem Ipsum</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------- Testimonial Section ---------->
+    <div class="policy-sec">
+        <div class="container">
+            <div class="box-footer">
+                <ul class="d-flex clearfix">
+                    <li>
+                        <div class="box-fixon">
+                            <div class="policy-align">
+                                <img src="images/Delivery.png" class="delivery-img">
+                                <h6>Free Shipping Worldwide</h6>
+                                <span>On Order Over Lorem Ipsum</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-fixon">
+                            <div class="policy-align">
+                                <img src="images/Gift.png">
+                                <h6>Special Gift Card</h6>
+                                <span>On Order Over Lorem Ipsum</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-fixon">
+                            <div class="policy-align">
+                                <img src="images/Support.png">
+                                <h6>24/7 Customer Services</h6>
+                                <span>On Order Over Lorem Ipsum</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------ Footer Section ------------>
+    <footer class="ftr_bg">
+        <div class="footer-box-1">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="ftr_txt">
+                            <div class="ftr_hdng">
+                                <div class="footer-logo">
+                                    <img src="images/Logo.png" class="img-fluid" />
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="ftr_icns">
+                                <h1>Follow Us</h1>
+                                <ul class="scl_icn">
+                                    <li><a href="https://www.facebook.com/RoopVatika" target="_blank"><div class="scl_icnbx"><i class="fa fa-facebook"></i></div></a></li>
+                                    <li><a href="https://twitter.com/roopvatika2" target="_blank"><div class="scl_icnbx"><i class="fa fa-twitter"></i></div></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCuQdYT9n_ccp3g6vBBRv84g" target="_blank"><div class="scl_icnbx"><i class="fa fa-youtube-play"></i></div></a></li>
+                                    <li><a href="https://www.instagram.com/roopvatikaofficial/" target="_blank"><div class="scl_icnbx"><i class="fa fa-instagram"></i></div></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="ftr_txt">
+                            <div class="ftr_hdng">
+                                <h1>Quick Link</h1>
+                            </div>
+                            <div class="quck_lnks d-flex">
+                                <ul>
+                                    <li><a href="#" class="footer-arrow">Our Store</a></li>
+                                    <li><a href="#" class="footer-arrow">Franchise Enquiry</a></li>
+                                    <li><a href="#" class="footer-arrow">Book An Appointment</a></li>
+                                    <li><a href="#" class="footer-arrow">About Us</a></li>
+                                    <li><a href="#" class="footer-arrow">Story</a></li>
+                                    <li><a href="#" class="footer-arrow">Contact</a></li>
+                                    <li><a href="#" class="footer-arrow">City</a></li>
+                                    <li><a href="#" class="footer-arrow">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="ftr_txt">
+                            <div class="ftr_hdng">
+                                <h1>Contact Us</h1>
+                            </div>
+                            <div class="quck_lnks f_cntct">
+                                <ul>
+                                    <li>
+                                        <div class="icon-box-cnct">
+                                            <i class="fa fa-map-marker fr_mrgn"></i>
+                                        </div>
+                                        <a href="#">
+                                            <span>ROOP VATIKA DESIGN PVT LTD, 6/96 Rajender Nagar, Main Shanker Road New Delhi - 110060</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box-cnct"><i class="fa fa-phone fr_mrgn"></i></div>
+                                        <a href="tel:+91-9971665629"><span>Call Us:</span>+91-9971665629</a>
+                                    </li>
+                                    <li>
+                                        <div class="icon-box-cnct"><i class="fa fa-paper-plane fr_mrgn"></i></div>
+                                        <a href="mailto:info@roopvatikadesign.com"><span>Mail Us:</span>info@roopvatikadesign.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="ftr_txt">
+                            <div class="ftr_hdng">
+                                <h1>Policy</h1>
+                            </div>
+
+                            <div class="quck_lnks">
+                                <ul>
+                                    <li><a href="#" class="footer-arrow">Shipping And Return</a></li>
+                                    <li><a href="#" class="footer-arrow">Shipping And Return</a></li>
+                                    <li><a href="#" class="footer-arrow">Privacy Policy</a></li>
+                                </ul>
+
+                                <div class="roopvatika-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.6884386969164!2d77.17701951503649!3d28.639098482415232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02bc456edef9%3A0x413adb69690ba2!2sRoop%20Vatika%20by%20Raj%20Arora-%20Luxurious%20Designer%20Bridal%20Lehenga%2C%20Gown%20%26%20Wedding%20Saree!5e0!3m2!1sen!2sin!4v1638734980354!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-box-2">
+            <div class="container">
+                <div class="ftr-nav-heading text-center">
+                    <h2>We Ship The All World</h2>
+                </div>
+                <div class="footer-nav-btm text-center">
+                    <ul>
+                        <li>United States</li>
+                        <li>United Kingdom</li>
+                        <li>Canada</li>
+                        <li>Australia</li>
+                        <li>United Arab Emirates</li>
+                        <li>Pakistan</li>
+                        <li>Singapore</li>
+                        <li>Bangladesh</li>
+                        <li>Germany</li>
+                        <li>New Zealand</li>
+                        <li>Malaysia</li>
+                        <li>Mauritius</li>
+                        <li>South Africa</li>
+                        <li>France</li>
+                        <li>Sri Lanka</li>
+                        <li>Trinidad & Tobago</li>
+                        <li>Netherlands</li>
+                        <li>Hong Kong</li>
+                        <li>Saudi Arabia</li>
+                        <li>Nepal</li>
+                        <li>Qatar</li>
+                        <li>Indonesia</li>
+                        <li>Italy</li>
+                        <li>Thailand</li>
+                        <li>Switzerland</li>
+                        <li>Kuwait</li>
+                        <li>Ireland</li>
+                        <li>Brazil</li>
+                        <li>Kenya</li>
+                        <li>Sweden</li>
+                        <li>Philippines</li>
+                        <li>Spain</li>
+                        <li>Oman</li>
+                        <li>Belgium</li>
+                        <li>Norway Peru</li>
+                        <li>Japan Bahrain</li>
+                        <li>Denmark</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-box-2 footer-box-3 ">
+            <div class="container">
+                <div class="ftr-nav-heading text-center">
+                    <h2>Designer festive wear for all your special occasions</h2>
+                </div>
+                <div class="footer-nav-btm text-center">
+                    <ul>
+                        <li>Diwali</li>
+                        <li>Holi</li>
+                        <li>Eid</li>
+                        <li>Ramadan</li>
+                        <li>Ganesh Chaturthi</li>
+                        <li>Raksha Bandhan</li>
+                        <li>Bhai Duj</li>
+                        <li>Dussehra</li>
+                        <li>Navaratri</li>
+                        <li>Janmashtami</li>
+                        <li>Christmas</li>
+                        <li>New Year</li>
+                        <li>Baisakhi</li>
+                        <li>Lohri</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="ftr_bottoom">
+            <span>Copyright © 2021 RoopVatika. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+
+    <!--Js File-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/prefix.js"></script>
+    
+</body>
+</html>
